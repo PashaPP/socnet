@@ -1,11 +1,15 @@
+
 export const Navigation = () => {
   return (
-  <div>     
-    <a href="#S">CSS</a> - 
-    <a href="#S">JS</a> - 
-    <a href="#S">HTML</a> - 
-    <a href="#S">React</a> -        
-  </div>
+    <div>
+      <ul>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+      </ul>
+    </div>
   )};
 
   
