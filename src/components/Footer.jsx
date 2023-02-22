@@ -1,4 +1,4 @@
-export const Navigation = () => {
+export const Footer = () => {
   return (
   <div>     
     <a href="#S">CSS</a> - 
