@@ -4,5 +4,9 @@
 }
 
 .item {
-  color: aliceblue
+  color: rgb(255, 255, 255)
+}
+
+.item.active{
+  color: cadetblue;
 }
