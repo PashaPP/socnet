@@ -1,4 +1,4 @@
-
+import { Button } from "@mantine/core";
 export const Profile = () => {
   return (
     <div className='content'>
@@ -17,12 +17,17 @@ export const Profile = () => {
       <div>
         post 1
       </div>
-      <div>
+      <div> 
         post 2
       </div>
       <div>
         post 3
       </div>
+
+       <div className="buttonSend"> 
+        <Button radius="xs" size="xs">
+           Send
+       </Button></div>
     </div>
   </div>
   )};
