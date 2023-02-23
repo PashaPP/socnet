@@ -1,3 +1,12 @@
 
-
+.header{
+  grid-area: h;
+  background-color: slategray;
+  }
+  
+  
+  
+.header img{
+  width: 90px;
+}
   

@@ -1,3 +1,4 @@
+import './Profile.css'
 import { Button } from "@mantine/core";
 export const Profile = () => {
   return (
