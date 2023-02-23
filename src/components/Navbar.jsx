@@ -1,23 +1,24 @@
 export const Navbar = () => {
   return (
-      <div className='nav'>
-      <nav >
+      <nav className="nav">
+      <div className='item'>
         <div>
           <a href="#s">Profile</a>
         </div>
-        <div>
+        <div className='item'>
           <a href="#s">Messages</a>
         </div>
-        <div>
+        <div className='item'>
           <a href="#s">News</a>
         </div>
-        <div>
+        <div className='item'>
           <a href="#s">Music</a>
         </div>
-        <div>
+        <div className='item'>
           <a href="#s">Settings</a>
         </div>
-      </nav></div>
+      </div>
+      </nav>
   )};
 
   
