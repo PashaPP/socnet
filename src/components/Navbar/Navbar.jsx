@@ -1,9 +1,9 @@
-import n from'./Navbar.module.css'
+import n from './Navbar.module.css'
 export const Navbar = () => {
-  return (
+   return (
       <nav className={n.nav}>
-            <div>
-           <div className={`${n.item} ${n.active}`}>
+         <div>
+            <div className={`${n.item} ${n.active}`}>
                <a>Profile</a>
             </div>
             <div className={`${n.item} ${n.active}`}>
@@ -18,9 +18,9 @@ export const Navbar = () => {
             <div className={n.item} >
                <a>Settingus</a>
             </div>
-               
-            </div>
-       </nav>
-  )};
 
-  
+         </div>
+      </nav>
+   )
+};
+

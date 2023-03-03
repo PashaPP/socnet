@@ -1,12 +1,13 @@
 .nav {
   grid-area: n;
   background-color: darkgray;
+  /* width: 250px; */
 }
 
 .item {
   color: rgb(255, 255, 255)
 }
 
-.item.active{
+.item.active {
   color: cadetblue;
 }
